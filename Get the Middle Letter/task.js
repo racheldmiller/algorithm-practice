@@ -30,3 +30,4 @@ function getMiddle(string) {
 }
 
 getMiddle("Ryan"); // should return "ya"
+getMiddle("Cindy"); // should return "n"
