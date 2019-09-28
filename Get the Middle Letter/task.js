@@ -1,6 +1,8 @@
+// * THIS ALGORITHM IS COURTESY OF CODEWARS. Check out Codewars.com for cool challenges!
+
 // -------------------------------- TASK -------------------------------------
 
-// You are going to be given a word. Your job is to return the middle character of the word.
+// You're going to be given a word. You're tasked with returning the middle character of the word.
 // If the word's length is odd, return the middle character.
 // If the word's length is even, return the middle 2 characters.
 
@@ -13,14 +15,15 @@
 
 // ----------------------------- APPROACH ------------------------------------
 
-// 1. Create a function, getMiddle. The argument we're passing in is a string, because words our are parameter we're working with. (Tbh, I'm not sure if I'm using that terminology correctly.)
-// 2. Within that function, create a variable, middleLetters, and leave it as an empty string.
-// 3. Think about your two conditional statements. We need one for handling words with an odd amount of letters, and one for handling an even amount of letters.
+// 1. Create a function, "middleLetter". The argument we're passing in is a string, because words our are parameter we're working with. (Tbh, I'm not sure if I'm using that terminology correctly.)
+// 2. Within that function, create a variable, "word", and leave it as an empty string.
+// 3. Think about your two conditional statements: one for handling words with an odd amount of letters, and one for handling an even amount of letters.
+// 4.
 
 // ------------------------------ SOLUTION ----------------------------------
 
-function getMiddle(string) {
-  var middleLetters = "";
+function middleLetter(string) {
+  var word = "";
   if (string.length % 2 === 0) {
     var even = string.length / 2;
     return string.slice(even - 1, even + 1);
@@ -31,5 +34,5 @@ function getMiddle(string) {
   }
 }
 
-getMiddle("Ryan"); // should return "ya"
-getMiddle("Cindy"); // should return "n"
+middleLetter("Ryan"); // should return "ya"
+middleLetter("Cindy"); // should return "n"
