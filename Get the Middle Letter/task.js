@@ -1,4 +1,4 @@
-// * THIS ALGORITHM IS COURTESY OF CODEWARS. Check out Codewars.com for cool challenges!
+// * THIS ALGORITHM IS COURTESY OF CODEWARS. CHECK OUT CODEWARS.COM FOR COOL CHALLENGES!
 
 // -------------------------------- TASK -------------------------------------
 
@@ -18,7 +18,7 @@
 // 1. Create a function, "middleLetter". The argument we're passing in is a string, because words our are parameter we're working with. (Tbh, I'm not sure if I'm using that terminology correctly.)
 // 2. Within that function, create a variable, "word", and leave it as an empty string.
 // 3. Think about your two conditional statements: one for handling words with an odd amount of letters, and one for handling an even amount of letters.
-// 4.
+// 4. [TO INVESTIGATE] Not much luck with using "/", but for some reason, "%" (modulus) is appropriate here.
 
 // ------------------------------ SOLUTION ----------------------------------
 
@@ -34,5 +34,6 @@ function middleLetter(string) {
   }
 }
 
+// --------------------------- TESTING ---------------------------------
 middleLetter("Ryan"); // should return "ya"
 middleLetter("Cindy"); // should return "n"
