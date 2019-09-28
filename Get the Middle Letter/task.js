@@ -14,3 +14,19 @@
 // ----------------------------- APPROACH ------------------------------------
 
 // 1. Create a
+
+// ------------------------------ SOLUTION ----------------------------------
+
+function getMiddle(string) {
+  var middleLetters = "";
+  if (string.length % 2 === 0) {
+    var even = string.length / 2;
+    return string.slice(even - 1, even + 1);
+  }
+  if (string.length % 2 !== 0) {
+    var odd = string.charAt(string.length / 2);
+    return odd;
+  }
+}
+
+getMiddle("Ryan"); // should return "ya"
