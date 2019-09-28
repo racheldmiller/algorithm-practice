@@ -13,7 +13,9 @@
 
 // ----------------------------- APPROACH ------------------------------------
 
-// 1. Create a
+// 1. Create a function, getMiddle. The argument we're passing in is a string, because words our are parameter we're working with. (Tbh, I'm not sure if I'm using that terminology correctly.)
+// 2. Within that function, create a variable, middleLetters, and leave it as an empty string.
+// 3. Think about your two conditional statements. We need one for handling words with an odd amount of letters, and one for handling an even amount of letters.
 
 // ------------------------------ SOLUTION ----------------------------------
 
